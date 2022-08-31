@@ -2,9 +2,10 @@
 Implementation of simulated OS code that handles a multi-level (trie-based) page table.  
 Written in C as an assignment in operating-systems course (Tel Aviv University).
 
-# Properties & Strucures details
+# Properties & Structures details
 
-Our simulated OS targets an imaginary 64-bit x86-like CPU.    
+Our simulated OS targets an imaginary 64-bit x86-like CPU.  
+  
 pt - pointer to page table (trie) by physical page number.  
 vpn - virtual page number (withour offset).  
 ppn - physical page number (withour offset).  
