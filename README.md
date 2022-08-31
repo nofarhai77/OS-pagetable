@@ -2,7 +2,7 @@
 Implementation of simulated OS code that handles a multi-level (trie-based) page table.  
 Written in C as an assignment in operating-systems course (Tel Aviv University).
 
-# Properties & Structures details
+# Properties
 
 Our simulated OS targets an imaginary 64-bit x86-like CPU.  
   
