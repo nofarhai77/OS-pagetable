@@ -1,12 +1,13 @@
 # OS-pagetable
-Implementation of simulated OS code that handles a multi-level (trie-based) page table. Written in C as an assignment in operating-systems course (Tel Aviv University).
+Implementation of simulated OS code that handles a multi-level (trie-based) page table.  
+Written in C as an assignment in operating-systems course (Tel Aviv University).
 
 # Properties & Strucures details
 
-Our simulated OS targets an imaginary 64-bit x86-like CPU.  
-pt - pointer to page table (trie) by physical page number.
-vpn - virtual page number (withour offset).
-ppn - physical page number (withour offset).
+Our simulated OS targets an imaginary 64-bit x86-like CPU.    
+pt - pointer to page table (trie) by physical page number.  
+vpn - virtual page number (withour offset).  
+ppn - physical page number (withour offset).  
 
 1. Virtual address structure - only the lower 57 bits are used for translation. 12 LSB is offset, 7 MSB is sign ext, leave 45 bits to vpn.
 2. Physical address structure - likewise.
